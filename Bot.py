@@ -1,4 +1,3 @@
-# chatbot_simple.py
 
 import random
 import json
