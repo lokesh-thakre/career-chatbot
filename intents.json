@@ -1,0 +1,308 @@
+{
+  "intents": [
+    {
+      "tag": "ask_skills_for_role",
+      "patterns": [
+        "What skills do I need to become a data analyst?",
+        "Which skills are required for a software engineer?",
+        "What skills should a marketing manager have?",
+        "What does a UX designer need to know?",
+        "How do I prepare skills-wise for a business analyst role?",
+        "I want to switch to product management — what skills do I need?",
+        "Which technical skills should I build for front-end developer?",
+        "What soft skills are important for project management?"
+      ],
+      "responses": [
+        "For that role, you’ll want a blend of technical and soft skills. E.g., for a data analyst: SQL, Excel, data visualization + critical thinking, communication.",
+        "Focus on building both domain-specific technical skills and transferable soft skills. For example: algorithms + teamwork for a software engineer.",
+        "Check job postings for the top 3-5 skills asked by employers in that role, and build a learning plan around them.",
+        "Don’t forget soft skills — things like problem solving, adaptability and collaboration often make the difference."
+      ]
+    },
+    {
+      "tag": "ask_interview_prep",
+      "patterns": [
+        "How can I prepare for an interview at a tech company?",
+        "What are good tips for a marketing role interview?",
+        "How to practice for behavioural interview questions?",
+        "How do I answer ‘Tell me about yourself’ in an interview?",
+        "What should I wear for a job interview?",
+        "How to negotiate salary after interview?",
+        "What mistakes should I avoid during an interview?",
+        "How to follow up after an interview?"
+      ],
+      "responses": [
+        "Start by researching the company: their mission, values and recent news. Then map your experiences to what they’re looking for.",
+        "For behavioural questions use the STAR method: Situation → Task → Action → Result. Structure your answers clearly.",
+        "Always have at least 2-3 questions ready to ask the interviewer — it shows interest and helps you evaluate the role too.",
+        "In your follow-up email, thank them for their time, reiterate your interest and mention one specific point you discussed that excited you."
+      ]
+    },
+    {
+      "tag": "ask_resume_tips",
+      "patterns": [
+        "How do I write a resume?",
+        "What should be included in a CV as a fresh graduate?",
+        "How long should my resume be?",
+        "What font size is good for a resume?",
+        "Should I include hobbies in my resume?",
+        "How to highlight projects on resume?",
+        "Should I use a photo on my resume in India?",
+        "How to tailor my resume for a specific job posting?"
+      ],
+      "responses": [
+        "Keep your resume to one page if you’re early in your career. Focus on readability: clear headings, bullet points and consistent formatting.",
+        "Tailor your resume for each job. Use keywords from the job description and highlight how *you* solved problems or achieved results.",
+        "In the experience/project section use metrics where possible: e.g., ‘Increased engagement by 20%’, ‘Reduced defects by 15%’ — numbers help.",
+        "Avoid generic hobbies like ‘watching movies’. Instead mention things relevant to your profession or that demonstrate soft skills (leadership, initiative, creativity)."
+      ]
+    },
+    {
+      "tag": "ask_remote_job_tips",
+      "patterns": [
+        "How can I find remote jobs internationally?",
+        "What skills are needed for a remote role?",
+        "How to stand out when applying for remote jobs?",
+        "What time-zone issues occur in remote work?",
+        "How to stay productive working from home?",
+        "What tools are essential for remote work?",
+        "How to show remote work experience on my resume?",
+        "How to prepare for a remote job interview?"
+      ],
+      "responses": [
+        "For remote roles, communication and self-motivation often matter more than in-office jobs. Highlight occasions where you worked independently or across time zones.",
+        "Make sure your resume and cover letter emphasize remote-friendly skills: virtual collaboration, asynchronous communication, independent problem solving.",
+        "Stay organized: set a dedicated workspace, follow a consistent schedule and use tools like Slack, Zoom and Trello (or equivalents) effectively.",
+        "If interviewing remotely, ensure your video & audio are good, your background is tidy, and you’re ready with at least one story about how you succeeded remotely/independently."
+      ]
+    },
+    {
+      "tag": "ask_linkedin_profile_tips",
+      "patterns": [
+        "How to optimise my LinkedIn profile?",
+        "What should I write in the LinkedIn headline?",
+        "How many skills should I list on LinkedIn?",
+        "Should I ask for recommendations on LinkedIn?",
+        "How to make my LinkedIn profile stand out?",
+        "What photo should I have on LinkedIn?",
+        "How to write a LinkedIn summary as a fresh graduate?",
+        "What’s the best way to show projects on LinkedIn?"
+      ],
+      "responses": [
+        "Your headline should say *who you are* + *what you do/want to do*. Example: ‘Aspiring Data Analyst | SQL • Python • Problem Solver’.",
+        "Use a professional photo where you’re looking at the camera, good lighting, plain background — it boosts credibility.",
+        "In the ‘About’ section, tell a short story: your background, what you’re passionate about and what you’re looking for next.",
+        "Add projects (with links if possible), and ask for 2-3 recommendations emphasising your teamwork, attitude or achievements — not just skills."
+      ]
+    },
+    {
+      "tag": "ask_career_path_options",
+      "patterns": [
+        "What career paths are available in data science?",
+        "What options do I have after a management degree?",
+        "Which fields can a software engineer switch to?",
+        "What job roles suit someone good at communication?",
+        "How to choose between UX designer vs product manager?",
+        "Is business analyst a good job for me?",
+        "What do I do if I’m stuck in my current career?",
+        "How to pivot from finance to tech?"
+      ],
+      "responses": [
+        "First list your skills and interests, then research 2-3 roles that match. Create a comparison of what skills/experience each needs and pick one to target.",
+        "A management degree can lead to roles in operations, consulting, product, strategy — look for what you enjoyed in your course and map it to job roles.",
+        "If you’re good at communication, roles like product specialist, customer success, or UX researcher might be a good fit.",
+        "Pivoting between fields is about transferable skills + demonstrating learning. Build a small relevant project or certification to show capability."
+      ]
+    },
+    {
+      "tag": "ask_certification_question",
+      "patterns": [
+        "Which certification should I pursue for data analysis?",
+        "Is PMP certification worth it in India?",
+        "What certificate helps for cloud computing?",
+        "Do I need a certification to become a UX designer?",
+        "Which certificate is recognised for cybersecurity?",
+        "How to choose between multiple online certificates?",
+        "Should I mention certification on resume?",
+        "How to showcase certification in LinkedIn?"
+      ],
+      "responses": [
+        "Certifications can help show knowledge, especially if you lack practical experience. But real projects and skills often matter more.",
+        "Choose a certification aligned with your target role and recognised by employers in your region. Research current job postings for the term ‘certificate’ to see what they mention.",
+        "Add the certification on your resume and LinkedIn under ‘Licenses & certifications’. Also include if you did a project as part of it.",
+        "Don’t rely solely on certification. Pair it with one small project that shows you applied what you learned."
+      ]
+    },
+    {
+      "tag": "ask_portfolio_advice",
+      "patterns": [
+        "How to build a portfolio as a fresh graduate?",
+        "What projects should I include in my portfolio?",
+        "How many projects are enough for a portfolio?",
+        "Should portfolio include personal or college projects?",
+        "How to host my portfolio online?",
+        "What makes a portfolio stand out for UX designers?",
+        "How to show data analysis project in my portfolio?",
+        "Should I link GitHub in my portfolio?"
+      ],
+      "responses": [
+        "Pick 2-3 strong projects that highlight different skills (e.g., tool usage, problem solving, collaboration) rather than many mediocre ones.",
+        "Include personal or college projects if they demonstrate relevant skills. Describe your role, tools used and outcome (with metrics if possible).",
+        "Host your portfolio online via GitHub Pages, a simple personal website or a static site generator. Make sure it’s easy to navigate from your LinkedIn and resume.",
+        "Link your code (GitHub), add visuals (screenshots or GIFs) and include a brief summary of each project: problem + approach + outcome."
+      ]
+    },
+    {
+      "tag": "ask_followup_question",
+      "patterns": [
+        "Can you tell me more?",
+        "What else should I know?",
+        "Anything more I should focus on?",
+        "What’s next step after this?",
+        "What do I do after that?",
+        "How can I improve further?",
+        "What should I learn next?",
+        "Is there another angle I’m missing?"
+      ],
+      "responses": [
+        "A good next step is to reflect on what you’ve done so far: what worked, what didn’t, what you want to improve.",
+        "Consider setting a small SMART goal for the next 2-4 weeks, and schedule time to work on it consistently.",
+        "Seek feedback: ask a peer, mentor or recruiter what stands out on your profile and iterate.",
+        "Keep track of your progress: update your resume/LinkedIn/portfolio as you complete tasks or learn new things."
+      ]
+    },
+    {
+      "tag": "ask_job_search_strategy",
+      "patterns": [
+        "How should I search for jobs after graduation?",
+        "What’s an effective job search strategy?",
+        "How many applications should I send per week?",
+        "How to get noticed by recruiters?",
+        "What’s the best way to approach head-hunters?",
+        "How to network effectively for job search?",
+        "Should I apply to job boards or company careers page?",
+        "How to follow up on my job application?"
+      ],
+      "responses": [
+        "Create a list of target companies + roles, tailor your resume to each role, and aim to send 5-10 quality applications per week rather than mass sending.",
+        "Networking often beats job boards. Attend industry meetups, connect with alumni, join LinkedIn groups and engage meaningfully.",
+        "For following up after applications send a short email after 7-10 days if you haven’t heard back — keep it polite, mention your role & interest.",
+        "Keep a tracking sheet of roles applied, date, status, next action. It helps you stay organised and see what’s working."
+      ]
+    },
+    {
+      "tag": "ask_remote_work_challenges",
+      "patterns": [
+        "What challenges come with remote work?",
+        "How to deal with isolation when working from home?",
+        "What time management issues occur in remote roles?",
+        "How to stay visible in a remote team?",
+        "How to handle distractions at home when remote working?",
+        "How to build relationships remotely with colleagues?",
+        "What if my internet connection is poor for remote job?",
+        "How to maintain work-life balance when remote?"
+      ],
+      "responses": [
+        "Some common challenges are: isolation, distraction, lack of face-to-face social interaction, time-zone difference and overworking — awareness is first step.",
+        "To manage distractions, set a fixed workspace, use techniques like Pomodoro, and define clear start/finish times.",
+        "To stay visible in a remote team, update your status, share progress regularly, join calls on camera occasionally and contribute proactively.",
+        "For work-life balance, stick to a schedule, take regular breaks, log off at end of day, and communicate boundaries clearly with team/family."
+      ]
+    },
+    {
+      "tag": "ask_growth_in_role",
+      "patterns": [
+        "How can I grow in my current role?",
+        "What steps can I take for career progression?",
+        "How to get promoted as a junior engineer?",
+        "What should I do to move into management?",
+        "How to transition from individual contributor to team lead?",
+        "What soft skills are key for leadership?",
+        "How to build technical depth and leadership at the same time?",
+        "What mentoring opportunities should I look for?"
+      ],
+      "responses": [
+        "Talk to your manager about your career goals and ask what competencies you need to develop for the next level.",
+        "Focus on both performance (doing your job well) and visibility (help others, share your work, build internal network).",
+        "Seek mentorship and give mentorship: helping others shows leadership potential.",
+        "Develop soft skills like communication, conflict resolution, vision-setting. Leadership is more than doing tasks — it’s influencing and supporting."
+      ]
+    },
+    {
+      "tag": "ask_salary_negotiation",
+      "patterns": [
+        "How to negotiate salary after offering?",
+        "What is a good salary for fresh graduate in India?",
+        "Should I accept the first job offer?",
+        "How to ask for more salary as a junior?",
+        "What components are negotiable besides salary?",
+        "How to negotiate benefits in job offer?",
+        "When should I negotiate salary?",
+        "What mistakes to avoid when negotiating salary?"
+      ],
+      "responses": [
+        "Do your research: look up salary benchmarks for your role, experience level and region. Use sites like Glassdoor, Payscale or local resources.",
+        "Besides base salary you can negotiate: joining bonus, relocation allowance, flexible hours, training budget, more paid leave.",
+        "Be polite and professional. Show excitement about the job, then ask if they could improve the offer given your skills and market data.",
+        "If the company can’t raise salary, ask for a performance review after 6-9 months with potential for raise or promotion."
+      ]
+    },
+    {
+      "tag": "ask_job_offer_evaluation",
+      "patterns": [
+        "How to evaluate a job offer?",
+        "What should I check in my offer letter?",
+        "How to compare two job offers?",
+        "What questions to ask before accepting a job?",
+        "How to understand stock options in offer?",
+        "Is title or salary more important?",
+        "What if company culture is not known?",
+        "Should I ask for job role clarity in my offer?"
+      ],
+      "responses": [
+        "Look beyond salary: consider role clarity, growth path, team, culture, work-life balance, benefits, learning opportunities.",
+        "Compare two offers by assigning weight to what matters most to you (learning, salary, autonomy, commute/remote).",
+        "Check the offer letter for key things: job title, responsibilities, reporting line, salary breakdown, probation period, notice period.",
+        "If stock/options are part of the offer, ask how they vest, what they convert to, and check risk vs reward."
+      ]
+    },
+    {
+      "tag": "ask_portfolio_online_presence",
+      "patterns": [
+        "How to show portfolio links on my resume?",
+        "Should I have personal website?",
+        "What are good project hosting platforms?",
+        "How to embed my GitHub in LinkedIn?",
+        "Should I blog about my projects?",
+        "How to highlight portfolio in job applications?",
+        "How to get portfolio reviewed?",
+        "Should I update portfolio regularly?"
+      ],
+      "responses": [
+        "Yes — having your projects on a personal website adds professionalism. Link it in your resume and LinkedIn headline or summary.",
+        "GitHub is great for code-heavy portfolios; for design/UX you might host on Behance or your own site. Choose what fits your domain.",
+        "Write a short blog post for each project: problem + solution + outcome + what you learned. It shows depth and reflection.",
+        "Review your portfolio every 3-6 months: update with new projects/skills, remove older irrelevant ones, ensure links still work."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "Can you help me with something else?",
+        "I don’t know what to ask",
+        "This sounds complicated",
+        "Not sure what I want",
+        "Something else maybe",
+        "I have another question",
+        "What can you do?",
+        "You didn’t answer my question"
+      ],
+      "responses": [
+        "I’m sorry, I didn’t quite get that. Could you please rephrase or ask another question?",
+        "I’m not sure I understand. Would you like me to connect you to human support or you can try a different question?",
+        "I’m still learning—could you try asking in a different way or provide more details?",
+        "Let’s try a different angle: what specific career question do you have right now?"
+      ]
+    }
+  ]
+}
